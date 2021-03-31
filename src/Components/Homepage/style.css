@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: violet;
+}
+.home_page{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:400px
+    /* background-color: violet; */
+}
+.login_message h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Dancing Script', cursive;
+}
+.login_message{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.login_button{
+    width: 300px;
+    margin: 20px auto 0px 20px;
+    padding: 15px 0;
+    border: none;
+    background: rgb(17, 17, 17);
+    font-family: "Inter";
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/* .login_button */
